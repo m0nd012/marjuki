@@ -1,0 +1,96 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Administrator</title>
+
+	<link rel="stylesheet" href="bootstrap/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="dist/css/admin.css">
+</head>
+<body>
+
+
+	<div class="wrapper">
+		<nav class="navbar navbar-default">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".sidebar-collapse" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">PERPUSTAKAAN</a>
+			</div>
+		</nav>
+		<aside class="sidebar sidebar-collapse">
+			<div class="menu">
+				<ul class="menu-content">
+					<li>
+						<a href="#"><i class="fa fa-user"></i> <span>User</span><i class="fa fa-angle-down pull-right"></i></a>
+						<ul>
+							<li><a href="">Data Perpustakaan</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#"><i class="fa fa-cube"></i> <span>Data Master</span><i class="fa fa-angle-down pull-right"></i> </a>
+						<ul>
+							<li><a href="">Data Anggota</a></li>
+							<li><a href="">Data Buku</a></li>
+							<li><a href="">Data peminjaman</a></li>
+							<li><a href="">Data Kehadiran</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#"><i class=" fa fa-users"></i> <span>Pengguna</span><i class="fa fa-angle-down pull-right"></i></a>
+						<ul>
+							<li><a href="">Data Peminjaman Buku</a></li>
+							<li><a href="">Data Pengembalian Buku</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</aside>
+
+		<section class="content">
+		<div class="wrapper">
+  <div class="boxx">
+   <div class="box1">
+    <i class="fa fa-home fa-5x" style="color: white;margin:30px 20px"></i>
+    <div class="title"><h2 class="int">Home</h2></div>
+  </div>
+  <div class="box2">
+    <i class="fa fa-book fa-5x" style="color: white;margin:30px 20px"></i>
+    <div class="title"><h2 class="intt">Buku</h2></div>
+    <a href="buku.html"><p class="title">Lihat Detail</p></a>
+  </div>
+  <div class="box3">
+    <i class="fa fa-list fa-5x" style="color: white;margin:30px 20px"></i>
+    <div class="title"><h3 class="inttt">Pinjam Buku</h3></div>
+  </div>
+  <div class="box4">
+    <i class="fa fa-pencil-square-o fa-5x" style="color: white;margin:30px 20px"></i>
+    <div class="title"><h3 class="intttt">Daftar Hadir</h3></div>
+  </div>
+</div>
+			<div class="inner">
+			<h1 align="center">Selamat Datang Diperpustakaan</h1>
+				<p align="center">Untuk kenyamanan bersama harap tenang dan jaga kebersihan</p>
+				<p align="center">Rapikan kembali tempat duduk dan tempatkan Buku pada tempatnya</p>
+			</div>
+		</section>
+	</div>
+
+
+
+
+
+	<!-- jquery.min.js wajib agar bootstrep.min.js dapat bekerja -->
+	<script src="dist/js/jquery.min.js"></script>
+	<script src="bootstrap/bootstrap/js/bootstrap.min.js"></script>
+	<script src="dist/js/admin.js"></script>
+</body>
+</html>
